@@ -1,11 +1,11 @@
-import './App.css'
-
+import './App.css';
+import Grid from './components/Grid/Grid';
 function App() {
 
 
   return (
     <>
-      hello world
+      <Grid numbersOfCards={9} />
     </>
   )
 }
